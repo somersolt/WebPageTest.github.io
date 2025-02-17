@@ -25,7 +25,7 @@ Render.run(render);
 Runner.run(Runner.create(), engine);
 
 // 삼각형 크기 및 위치
-const triangleSize = 1000;
+const triangleSize = 600;
 const thickness = 60;
 const triangleHeight = (Math.sqrt(3) / 2) * triangleSize;
 const centerX = canvasWidth / 2;
@@ -76,7 +76,7 @@ World.add(world, triangleFrame);
 const balls = [];
 const numBalls = 4;
 for (let i = 0; i < numBalls; i++) {
-    const radius = 30;
+    const radius = 20;
     let randomX, randomY;
 
     // 삼각형 내부의 무작위 좌표 생성 (반복해서 내부 좌표 찾기)
